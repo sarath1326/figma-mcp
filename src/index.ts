@@ -6,6 +6,8 @@ import "dotenv/config";
 import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
+
+
 import { FigmaClient } from "./figma-client.js";
 import {
     simplifyNode,
